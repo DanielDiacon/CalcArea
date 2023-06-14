@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JS</title>
+   <link rel="stylesheet" href="style.css">
+   <script defer src="js/script.js"></script>
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="card">
+         <div class="card__row">
+            <h3 class="card__title">Instrucțiuni:</h3>
+            <div class="card__img">
+               Made by
+               <img src="daniel-png.png" alt="">
+            </div>
+         </div>
+         <ol class="card__list-main">
+            <li class="card__item-main">Pentru a calcula aria unui triunghi:</li>
+            <ul class="card__list">
+               <li class="card__item">Completează ambele casete cu lungimile laturilor triunghiului.</li>
+               <li class="card__item">Apasă butonul "Submit" pentru a obține rezultatul.</li>
+            </ul>
+            <li class="card__item-main">Pentru a calcula aria unui pătrat:</li>
+            <ul class="card__list">
+               <li class="card__item">Completează primele două casete dar a treia putesi sa o lasati goala.</li>
+               <li class="card__item">Apasă butonul "Submit" pentru a obține rezultatul.</li>
+            </ul>
+            <li class="card__item-main">Indiferent de forma geometrică pe care o alegi, asigură-te că introduci numere
+               valide în casetele
+               corespunzătoare.
+            </li>
+         </ol>
+         <div class="card__items">
+            <input class="card__input" type="number" placeholder="Latimea" id="inputWidth">
+            <input class="card__input" type="number" placeholder="Lungimea" id="inputLength">
+            <input class="card__input" type="number" placeholder="Unghiul dintre lature" id="inputAngle">
+         </div>
+         <p class="card__text-alert" id="text"></p>
+         <button class="card__btn" id="submitButton">Submit</button>
+      </div>
+   </div>
+</body>
+
+</html>
